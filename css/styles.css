@@ -162,14 +162,16 @@ a{
    
 }
 
-.icon{
+.icon {
     width: 40px;
     height: 40px;
+    fill: currentColor;
 }
 
-.icon--primmary{
-   fill: var(--color-primary);
+.icon--primary {
+    color: var(--color-primary);
 }
+
 
 .icon-container{
     background-color: #f3f9fa;
@@ -345,4 +347,20 @@ input{
     .plan_billing-cycle{
         font-size: 1.6rem;
     }
+}
+
+.media{
+    display: flex;
+}
+
+.media_title{
+    margin-top: 0;
+}
+
+.media_body{
+    margin: 0 2rem;
+}
+
+.media_image{
+    margin-top: 1rem;
 }
